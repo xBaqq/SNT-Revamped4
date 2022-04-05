@@ -1,0 +1,6 @@
+local plr = game:GetService("Players").LocalPlayer
+if plr:IsInGroup("14464090") then
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/xBaqq/SNT-Revamped2/main/SNT-Revamped"))()
+    else
+    plr:Kick("Not Whitelisted.")
+end
